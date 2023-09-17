@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "iTc9yeVZfv8mbFI9R977GSJSo/4OmFqr58VQ+fTngeUJi0hGSwW6hmJgehRxTbsehw9y1S1fgtpSBWWQn264xQ==",
+  "success": true,
+  "projectFilePath": "G:\\Users\\Илья\\Documents\\Учебный WEBApi\\Notes.Backend\\Notes.Domain\\Notes.Domain.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://build.egar.egartech.com/NugetServer/nuget/'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

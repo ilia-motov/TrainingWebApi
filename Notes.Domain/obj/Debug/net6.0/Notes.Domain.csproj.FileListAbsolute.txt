@@ -1,0 +1,12 @@
+G:\Users\Илья\Documents\Учебный WEBApi\Notes.Backend\Notes.Domain\bin\Debug\net6.0\Notes.Domain.deps.json
+G:\Users\Илья\Documents\Учебный WEBApi\Notes.Backend\Notes.Domain\bin\Debug\net6.0\Notes.Domain.dll
+G:\Users\Илья\Documents\Учебный WEBApi\Notes.Backend\Notes.Domain\bin\Debug\net6.0\Notes.Domain.pdb
+G:\Users\Илья\Documents\Учебный WEBApi\Notes.Backend\Notes.Domain\obj\Debug\net6.0\Notes.Domain.csproj.AssemblyReference.cache
+G:\Users\Илья\Documents\Учебный WEBApi\Notes.Backend\Notes.Domain\obj\Debug\net6.0\Notes.Domain.GeneratedMSBuildEditorConfig.editorconfig
+G:\Users\Илья\Documents\Учебный WEBApi\Notes.Backend\Notes.Domain\obj\Debug\net6.0\Notes.Domain.AssemblyInfoInputs.cache
+G:\Users\Илья\Documents\Учебный WEBApi\Notes.Backend\Notes.Domain\obj\Debug\net6.0\Notes.Domain.AssemblyInfo.cs
+G:\Users\Илья\Documents\Учебный WEBApi\Notes.Backend\Notes.Domain\obj\Debug\net6.0\Notes.Domain.csproj.CoreCompileInputs.cache
+G:\Users\Илья\Documents\Учебный WEBApi\Notes.Backend\Notes.Domain\obj\Debug\net6.0\Notes.Domain.dll
+G:\Users\Илья\Documents\Учебный WEBApi\Notes.Backend\Notes.Domain\obj\Debug\net6.0\refint\Notes.Domain.dll
+G:\Users\Илья\Documents\Учебный WEBApi\Notes.Backend\Notes.Domain\obj\Debug\net6.0\Notes.Domain.pdb
+G:\Users\Илья\Documents\Учебный WEBApi\Notes.Backend\Notes.Domain\obj\Debug\net6.0\ref\Notes.Domain.dll

@@ -1,0 +1,15 @@
+G:\Users\Илья\Documents\Учебный WEBApi\Notes.Backend\Notes.Application\bin\Debug\net6.0\Notes.Application.deps.json
+G:\Users\Илья\Documents\Учебный WEBApi\Notes.Backend\Notes.Application\bin\Debug\net6.0\Notes.Application.dll
+G:\Users\Илья\Documents\Учебный WEBApi\Notes.Backend\Notes.Application\bin\Debug\net6.0\Notes.Application.pdb
+G:\Users\Илья\Documents\Учебный WEBApi\Notes.Backend\Notes.Application\bin\Debug\net6.0\Notes.Domain.dll
+G:\Users\Илья\Documents\Учебный WEBApi\Notes.Backend\Notes.Application\bin\Debug\net6.0\Notes.Domain.pdb
+G:\Users\Илья\Documents\Учебный WEBApi\Notes.Backend\Notes.Application\obj\Debug\net6.0\Notes.Application.csproj.AssemblyReference.cache
+G:\Users\Илья\Documents\Учебный WEBApi\Notes.Backend\Notes.Application\obj\Debug\net6.0\Notes.Application.GeneratedMSBuildEditorConfig.editorconfig
+G:\Users\Илья\Documents\Учебный WEBApi\Notes.Backend\Notes.Application\obj\Debug\net6.0\Notes.Application.AssemblyInfoInputs.cache
+G:\Users\Илья\Documents\Учебный WEBApi\Notes.Backend\Notes.Application\obj\Debug\net6.0\Notes.Application.AssemblyInfo.cs
+G:\Users\Илья\Documents\Учебный WEBApi\Notes.Backend\Notes.Application\obj\Debug\net6.0\Notes.Application.csproj.CoreCompileInputs.cache
+G:\Users\Илья\Documents\Учебный WEBApi\Notes.Backend\Notes.Application\obj\Debug\net6.0\Notes.Application.csproj.CopyComplete
+G:\Users\Илья\Documents\Учебный WEBApi\Notes.Backend\Notes.Application\obj\Debug\net6.0\Notes.Application.dll
+G:\Users\Илья\Documents\Учебный WEBApi\Notes.Backend\Notes.Application\obj\Debug\net6.0\refint\Notes.Application.dll
+G:\Users\Илья\Documents\Учебный WEBApi\Notes.Backend\Notes.Application\obj\Debug\net6.0\Notes.Application.pdb
+G:\Users\Илья\Documents\Учебный WEBApi\Notes.Backend\Notes.Application\obj\Debug\net6.0\ref\Notes.Application.dll
