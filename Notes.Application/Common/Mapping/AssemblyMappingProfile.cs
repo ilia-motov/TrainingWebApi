@@ -5,10 +5,7 @@ namespace Notes.Application.Common.Mapping;
 
 public class AssemblyMappingProfile : Profile
 {
-    public AssemblyMappingProfile(Assembly assembly)
-    {
-        ApplyMappingsFromAssembly(assembly); 
-    }
+    public AssemblyMappingProfile(Assembly assembly) => ApplyMappingsFromAssembly(assembly); 
 
     private void ApplyMappingsFromAssembly(Assembly assembly)
     {

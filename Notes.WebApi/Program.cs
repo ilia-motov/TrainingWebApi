@@ -13,19 +13,11 @@ internal class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
-        using (var scope = builder.Services.CreateScope())
-        {
-            var serviceprovider = scope.ServiceProvider;
-            try
-            {
+        var configuration = new ConfigurationBuilder()
+            .SetBasePath(builder.Environment.ContentRootPath)
+            .AddJsonFile("appsettings.json")
+            .Build();
 
-            }
-            catch (Exception)
-            {
-
-                throw;
-            }
-        }
         builder.Services.AddAutoMapper(config =>
         {
             config.AddProfile(new AssemblyMappingProfile(Assembly.GetExecutingAssembly()));
@@ -34,8 +26,45 @@ internal class Program
 
         builder.Services.AddApplication();
         builder.Services.AddPersistence(configuration);
+        builder.Services.AddCors(options =>
+        {
+            options.AddPolicy("AllowAll", policy =>
+            {
+                policy.AllowAnyHeader();
+                policy.AllowAnyMethod();
+                policy.AllowAnyOrigin();
+            });
+        });
 
         var app = builder.Build();
+
+        if (app.Environment.IsDevelopment())
+        {
+            app.UseDeveloperExceptionPage();
+        }
+
+        app.UseRouting();
+        app.UseHttpsRedirection();
+        app.UseCors("AllowAll");
+        app.UseEndpoints(endpoints =>
+        {
+            endpoints.MapControllers();
+        });
+
+
+        using (var scope = app.Services.CreateScope())
+        {
+            var serviceprovider = scope.ServiceProvider;
+            try
+            {
+                var context = serviceprovider.GetRequiredService<NoteDbContext>();
+                DbInitialize.Initialize(context);
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+        }
 
         app.MapGet("/", () => "Hello World!");
 
